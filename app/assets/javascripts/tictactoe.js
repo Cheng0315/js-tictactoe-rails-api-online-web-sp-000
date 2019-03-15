@@ -127,7 +127,7 @@ function loadGame(id) {
     currentGame = game.data.id
     turn = state.filter(Boolean).length
     for (i=0; i<9; i++) {
-      $('td')[i].innerHTML = state[i]
+      cells[i].innerHTML = state[i]
     }
   })
 }
